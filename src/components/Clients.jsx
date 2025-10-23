@@ -64,7 +64,7 @@ function Clients() {
                           />
                         </div>
                         <div className="pt-0 flex-grow">
-                          <h3 className="text-base font-bold text-black mb-2 uppercase tracking-wider">{slideCards[0].name}</h3>
+                          <h3 className="text-lg   mb-2  tracking-wider">{slideCards[0].name}</h3>
                           <p className="text-lg text-gray-700 leading-relaxed">{slideCards[0].quote}</p>
                         </div>
                       </div>
@@ -84,7 +84,7 @@ function Clients() {
                           />
                         </div>
                         <div className="pt-0 flex-grow">
-                          <h3 className="text-base font-bold text-black mb-2 uppercase tracking-wider">{slideCards[1].name}</h3>
+                          <h3 className="text-lg   mb-2  tracking-wider">{slideCards[1].name}</h3>
                           <p className="text-lg text-gray-700 leading-relaxed">{slideCards[1].quote}</p>
                         </div>
                       </div>

@@ -50,7 +50,7 @@ function Navbar() {
                   setClicked(index);
                   setTimeout(() => setClicked(null), 300);
                 }}
-                className={`inline-flex items-center px-1 pt-1 text-sm font-medium transition duration-300 
+                className={`inline-flex  items-center px-1 pt-1 text-lg font-medium transition duration-300 
                   ${isHome ? " hover:text-yellow-400" : " hover:text-yellow-400"} 
                   ${clicked === index ? "animate-glitch" : ""}`}
               >
@@ -60,9 +60,9 @@ function Navbar() {
           </div>
 
 
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center  space-x-4">
             <IoSearch className={`text-xl cursor-pointer transition ${isHome ? " hover:text-yellow-400" : " hover:text-yellow-400"}`} />
-            <p className={`cursor-pointer transition ${isHome ? " hover:text-yellow-400" : " hover:text-yellow-400"}`}>LOGIN</p>
+            <p className={`cursor-pointer text-lg transition ${isHome ? " hover:text-yellow-400" : " hover:text-yellow-400"}`}>LOGIN</p>
           </div>
         </div>
       </div>

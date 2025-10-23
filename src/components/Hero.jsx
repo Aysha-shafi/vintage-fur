@@ -111,7 +111,7 @@ function Hero() {
           <p className="text-md text-black mb-8 max-w-lg mx-auto pt-8 p-2 rounded">
             {currentSlideData.text}
           </p>
-          <button className="bg-yellow-500 text-white rounded mt-80 py-3 px-10 text-md uppercase tracking-wider hover:bg-yellow-600 transition">
+          <button className="bg-yellow-500 hover:bg-black hover:cursor-pointer text-white rounded mt-80 py-3 px-10 text-md uppercase tracking-wider  transition">
             {currentSlideData.buttonText}
           </button>
         </div>
@@ -131,7 +131,7 @@ function Hero() {
           <p className="text-md mb-8 max-w-lg mx-auto pt-8 p-2 rounded">
             {nextSlideData.text}
           </p>
-          <button className="bg-yellow-500 text-white rounded mt-80 py-3 px-10 text-md uppercase tracking-wider hover:bg-yellow-600 transition">
+          <button className="bg-yellow-500 text-white rounded mt-80 py-3 px-10 text-md uppercase tracking-wider hover:bg-black hover:cursor-pointer transition">
             {nextSlideData.buttonText}
           </button>
         </div>

@@ -17,11 +17,11 @@ function Contact() {
                 <div className="flex flex-wrap lg:flex-nowrap gap-8   p-10 pl-14 pr-14 ">
                     {/* Contact Form Area */}
                     <div className="w-full lg:w-1/2 space-y-6">
-                        <input className="w-full p-3 pl-5 bg-white rounded font-semibold" type="text" placeholder="Name" />
-                        <input className="w-full p-3 pl-5 bg-white rounded font-semibold" type="email" placeholder="Email" />
-                        <input className="w-full p-3  pl-5 bg-white rounded font-semibold" type="tel" placeholder="Phone Number" />
-                        <textarea className="w-full py-15 pl-5  bg-white rounded font-semibold h-36" placeholder="Message"></textarea>
-                        <button className=" hover:bg-yellow-600 text-lg mt-5 text-gray-400 border-2 border-white font-bold py-4 px-13  transition duration-300  tracking-wider">
+                        <input className="w-full p-3 pl-5 bg-white rounded text-lg text-gray-700" type="text" placeholder="Name" />
+                        <input className="w-full p-3 pl-5 bg-white rounded text-lg text-gray-700" type="email" placeholder="Email" />
+                        <input className="w-full p-3  pl-5 bg-white rounded text-lg text-gray-700" type="tel" placeholder="Phone Number" />
+                        <textarea className="w-full py-15 pl-5  bg-white rounded text-lg text-gray-700 h-36" placeholder="Message"></textarea>
+                        <button className=" hover:bg-white hover:cursor-pointer text-xl mt-5 text-gray-400 border-2 border-white font-bold py-4 px-13  transition duration-300  ">
                             SEND
                         </button>
                     </div>

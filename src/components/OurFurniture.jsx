@@ -16,7 +16,7 @@ function OurFurnitures() {
 
       <div className="max-w-7xl mx-auto text-center px-12">
         <h2 className="text-4xl  mb-2">OUR FURNITURES</h2>
-        <p className=" mb-12 mt-8">There are many variations of passages of lorem ipsum</p>
+        <p className=" mb-12 mt-8">There are many variations of passages of Lorem Ipsum</p>
 
         <div className="grid md:grid-cols-2 gap-8 mb-20">
           {furnitureItems.map((item, index) => (
@@ -58,7 +58,7 @@ function OurFurnitures() {
           <p className="text-1xl text-white mb-8 mx-auto leading-snug max-w-5xl tracking-wide" style={{ width: "100%" }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi utLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
 
-          <button className="bg-black text-white mt-15 rounded py-3 px-6 text-1xl uppercase hover:bg-white hover:text-black transition duration-300">
+          <button className="bg-black text-white mt-15 rounded py-3 px-6 text-lg uppercase hover:bg-white hover:text-black hover:cursor-pointer transition duration-300">
             GET A QUOTE
           </button>
         </div>
